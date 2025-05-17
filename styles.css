@@ -18,6 +18,7 @@ body{
 }
 .a_tag_nav{
     color: white;
+    background-color: rgb(196, 194, 194);
     font-weight: bolder;
     text-decoration: none;
     text-align: center;
@@ -33,13 +34,19 @@ a:active{
     transition: 0.89s ease;
 }
 .div_main{
-    height: 1000px;
+    min-height: 500px;
     width: 90%;
     background-color: yellow;
     margin-top: 110px;
     border-radius: 10px;
     background-size: contain;
-    margin-left: 4%;
+    margin-left: -2%;
+    color: rgb(58, 56, 56);
+    font-weight: bolder;
+    display: flow-root;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
 }
 footer{
     background-color: rgb(196, 194, 194);
@@ -50,8 +57,31 @@ footer{
     height: 60px;
     width: 90%;
     margin-top: 10px;
-    margin-left: 4%;
+    margin-left: -2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .div_container{
     padding-top: 20px;
 }
+img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+    .map-container {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+    .map-container h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .map-frame {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+      border: none;
+    }

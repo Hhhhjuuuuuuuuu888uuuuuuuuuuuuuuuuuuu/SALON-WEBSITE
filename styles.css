@@ -33,7 +33,7 @@ a:active{
     transition: 0.89s ease;
 }
 .div_main{
-    height: 500px;
+    height: 1000px;
     width: 90%;
     background-color: yellow;
     margin-top: 110px;
